@@ -1,8 +1,0 @@
-version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
-options: "b784ba292f6aea705339ffae8614a3b0"
-build_time: [1526400157, 183401000]
-inputs:
-  "/Users/Nour/Projects/BlueBot/BlueBot/BlueProtocol.swift": [9223372036, 854775807]
-  "/Users/Nour/Projects/BlueBot/BlueBot/ViewController.swift": [9223372036, 854775807]
-  "/Users/Nour/Projects/BlueBot/BlueBot/GameScene.swift": [9223372036, 854775807]
-  "/Users/Nour/Projects/BlueBot/BlueBot/AppDelegate.swift": [9223372036, 854775807]
