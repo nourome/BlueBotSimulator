@@ -1,0 +1,131 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/Nour/Projects/BlueBot/BlueBot/AppDelegate.swift",
+      "line": 13,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Nour/Projects/BlueBot/BlueBot/AppDelegate.swift",
+      "line": 17,
+      "symbol": "AppDelegate.applicationDidFinishLaunching(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Nour/Projects/BlueBot/BlueBot/AppDelegate.swift",
+      "line": 21,
+      "symbol": "AppDelegate.applicationWillTerminate(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Nour/Projects/BlueBot/BlueBot/GameScene.swift",
+      "line": 12,
+      "symbol": "GameScene",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Nour/Projects/BlueBot/BlueBot/GameScene.swift",
+      "line": 30,
+      "symbol": "GameScene.frameTime",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Nour/Projects/BlueBot/BlueBot/GameScene.swift",
+      "line": 31,
+      "symbol": "GameScene.timeOffset",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Nour/Projects/BlueBot/BlueBot/GameScene.swift",
+      "line": 32,
+      "symbol": "GameScene.countDownTimer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Nour/Projects/BlueBot/BlueBot/GameScene.swift",
+      "line": 64,
+      "symbol": "GameScene.isLowBatterySimulating",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Nour/Projects/BlueBot/BlueBot/GameScene.swift",
+      "line": 65,
+      "symbol": "GameScene.isStuckSimulating",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Nour/Projects/BlueBot/BlueBot/GameScene.swift",
+      "line": 66,
+      "symbol": "GameScene.isErrorSimulating",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Nour/Projects/BlueBot/BlueBot/GameScene.swift",
+      "line": 67,
+      "symbol": "GameScene.sentNotificationLowBattery",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Nour/Projects/BlueBot/BlueBot/GameScene.swift",
+      "line": 68,
+      "symbol": "GameScene.blueProtocol",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Nour/Projects/BlueBot/BlueBot/ViewController.swift",
+      "line": 14,
+      "symbol": "ViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Nour/Projects/BlueBot/BlueBot/ViewController.swift",
+      "line": 45,
+      "symbol": "ViewController.skView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Nour/Projects/BlueBot/BlueBot/ViewController.swift",
+      "line": 49,
+      "symbol": "ViewController.STATUS_OFF",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Nour/Projects/BlueBot/BlueBot/ViewController.swift",
+      "line": 50,
+      "symbol": "ViewController.STATUS_ON",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Nour/Projects/BlueBot/BlueBot/ViewController.swift",
+      "line": 51,
+      "symbol": "ViewController.STATUS_ERROR",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Nour/Projects/BlueBot/BlueBot/ViewController.swift",
+      "line": 52,
+      "symbol": "ViewController.STATUS_STUCK",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/Nour/Projects/BlueBot"
+}

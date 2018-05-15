@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ViewController Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/ViewController" class="dashAnchor"></a>
+    <a title="ViewController Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (79% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        ViewController Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AppDelegate.html">AppDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GameScene.html">GameScene</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ViewController.html">ViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/BlueProtocol.html">BlueProtocol</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>ViewController</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">ViewController</span> <span class="p">:</span> <span class="kt">NSViewController</span><span class="p">,</span> <span class="kt">CBPeripheralManagerDelegate</span><span class="p">,</span> <span class="kt"><a href="../Protocols/BlueProtocol.html">BlueProtocol</a></span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7BlueBot14ViewControllerC8botState33_0891EFC760EFD9A05D57800FFFF104AFLLSays5UInt8VGvp"></a>
+                    <a name="//apple_ref/swift/Property/botState" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7BlueBot14ViewControllerC8botState33_0891EFC760EFD9A05D57800FFFF104AFLLSays5UInt8VGvp">botState</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>robot power state 0 = off , 1 = on. This value is updated from the central</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">var</span> <span class="nv">botState</span><span class="p">:</span> <span class="kt">Array</span><span class="o">&lt;</span><span class="kt">UInt8</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7BlueBot14ViewControllerC20botAdvertisementData33_0891EFC760EFD9A05D57800FFFF104AFLLSSvp"></a>
+                    <a name="//apple_ref/swift/Property/botAdvertisementData" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7BlueBot14ViewControllerC20botAdvertisementData33_0891EFC760EFD9A05D57800FFFF104AFLLSSvp">botAdvertisementData</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Service Advertisement Data&hellip; not important</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">let</span> <span class="nv">botAdvertisementData</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7BlueBot14ViewControllerC16BOT_SERVICE_UUID33_0891EFC760EFD9A05D57800FFFF104AFLLSo6CBUUIDCvp"></a>
+                    <a name="//apple_ref/swift/Property/BOT_SERVICE_UUID" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7BlueBot14ViewControllerC16BOT_SERVICE_UUID33_0891EFC760EFD9A05D57800FFFF104AFLLSo6CBUUIDCvp">BOT_SERVICE_UUID</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Service CBUUID</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">let</span> <span class="nv">BOT_SERVICE_UUID</span><span class="p">:</span> <span class="kt">CBUUID</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7BlueBot14ViewControllerC19BOT_ALERT_INFO_UUID33_0891EFC760EFD9A05D57800FFFF104AFLLSo6CBUUIDCvp"></a>
+                    <a name="//apple_ref/swift/Property/BOT_ALERT_INFO_UUID" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7BlueBot14ViewControllerC19BOT_ALERT_INFO_UUID33_0891EFC760EFD9A05D57800FFFF104AFLLSo6CBUUIDCvp">BOT_ALERT_INFO_UUID</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Alert Characsteric CBUUID</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">let</span> <span class="nv">BOT_ALERT_INFO_UUID</span><span class="p">:</span> <span class="kt">CBUUID</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7BlueBot14ViewControllerC16BOT_ALERT_VALUES33_0891EFC760EFD9A05D57800FFFF104AFLLSays5UInt8VGvp"></a>
+                    <a name="//apple_ref/swift/Property/BOT_ALERT_VALUES" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7BlueBot14ViewControllerC16BOT_ALERT_VALUES33_0891EFC760EFD9A05D57800FFFF104AFLLSays5UInt8VGvp">BOT_ALERT_VALUES</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>robot alerts values [battery, error, stuck, done]. These values when updated, the peripheral will notify the central.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">var</span> <span class="nv">BOT_ALERT_VALUES</span><span class="p">:</span> <span class="kt">Array</span><span class="o">&lt;</span><span class="kt">UInt8</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7BlueBot14ViewControllerC13BOT_INFO_UUID33_0891EFC760EFD9A05D57800FFFF104AFLLSo6CBUUIDCvp"></a>
+                    <a name="//apple_ref/swift/Property/BOT_INFO_UUID" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7BlueBot14ViewControllerC13BOT_INFO_UUID33_0891EFC760EFD9A05D57800FFFF104AFLLSo6CBUUIDCvp">BOT_INFO_UUID</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Bot Info Characsteric CBUUID, read only [status (on/off/stuck/error), battery]</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">let</span> <span class="nv">BOT_INFO_UUID</span><span class="p">:</span> <span class="kt">CBUUID</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7BlueBot14ViewControllerC17BOT_SETTINGS_UUID33_0891EFC760EFD9A05D57800FFFF104AFLLSo6CBUUIDCvp"></a>
+                    <a name="//apple_ref/swift/Property/BOT_SETTINGS_UUID" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7BlueBot14ViewControllerC17BOT_SETTINGS_UUID33_0891EFC760EFD9A05D57800FFFF104AFLLSo6CBUUIDCvp">BOT_SETTINGS_UUID</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Settings Characsteric CBUUID, writable [timer, speed]</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">let</span> <span class="nv">BOT_SETTINGS_UUID</span><span class="p">:</span> <span class="kt">CBUUID</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7BlueBot14ViewControllerC15BOT_POWERS_UUID33_0891EFC760EFD9A05D57800FFFF104AFLLSo6CBUUIDCvp"></a>
+                    <a name="//apple_ref/swift/Property/BOT_POWERS_UUID" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7BlueBot14ViewControllerC15BOT_POWERS_UUID33_0891EFC760EFD9A05D57800FFFF104AFLLSo6CBUUIDCvp">BOT_POWERS_UUID</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Power Characsteric CBUUID, writable [on / off]</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">let</span> <span class="nv">BOT_POWERS_UUID</span><span class="p">:</span> <span class="kt">CBUUID</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7BlueBot14ViewControllerC17peripheralManager33_0891EFC760EFD9A05D57800FFFF104AFLLSQySo012CBPeripheralF0CGvp"></a>
+                    <a name="//apple_ref/swift/Property/peripheralManager" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7BlueBot14ViewControllerC17peripheralManager33_0891EFC760EFD9A05D57800FFFF104AFLLSQySo012CBPeripheralF0CGvp">peripheralManager</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>CBPeripheralManager instance</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">var</span> <span class="nv">peripheralManager</span><span class="p">:</span> <span class="kt">CBPeripheralManager</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7BlueBot14ViewControllerC20alertCharacteristics33_0891EFC760EFD9A05D57800FFFF104AFLLSQySo23CBMutableCharacteristicCGvp"></a>
+                    <a name="//apple_ref/swift/Property/alertCharacteristics" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7BlueBot14ViewControllerC20alertCharacteristics33_0891EFC760EFD9A05D57800FFFF104AFLLSQySo23CBMutableCharacteristicCGvp">alertCharacteristics</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Alert CBMutableCharacteristic instance, needs ref for alerting central</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">var</span> <span class="nv">alertCharacteristics</span><span class="p">:</span> <span class="kt">CBMutableCharacteristic</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@BlueBot@objc(cs)ViewController(py)skView"></a>
+                    <a name="//apple_ref/swift/Property/skView" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BlueBot@objc(cs)ViewController(py)skView">skView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">var</span> <span class="nv">skView</span><span class="p">:</span> <span class="kt">SKView</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7BlueBot14ViewControllerC9gameScene33_0891EFC760EFD9A05D57800FFFF104AFLLSQyAA04GameF0CGvp"></a>
+                    <a name="//apple_ref/swift/Property/gameScene" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7BlueBot14ViewControllerC9gameScene33_0891EFC760EFD9A05D57800FFFF104AFLLSQyAA04GameF0CGvp">gameScene</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>GameScene instance</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">var</span> <span class="nv">gameScene</span><span class="p">:</span> <span class="kt"><a href="../Classes/GameScene.html">GameScene</a></span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7BlueBot14ViewControllerC10STATUS_OFF33_0891EFC760EFD9A05D57800FFFF104AFLLs5UInt8Vvp"></a>
+                    <a name="//apple_ref/swift/Property/STATUS_OFF" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7BlueBot14ViewControllerC10STATUS_OFF33_0891EFC760EFD9A05D57800FFFF104AFLLs5UInt8Vvp">STATUS_OFF</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">let</span> <span class="nv">STATUS_OFF</span><span class="p">:</span> <span class="kt">UInt8</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7BlueBot14ViewControllerC9STATUS_ON33_0891EFC760EFD9A05D57800FFFF104AFLLs5UInt8Vvp"></a>
+                    <a name="//apple_ref/swift/Property/STATUS_ON" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7BlueBot14ViewControllerC9STATUS_ON33_0891EFC760EFD9A05D57800FFFF104AFLLs5UInt8Vvp">STATUS_ON</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">let</span> <span class="nv">STATUS_ON</span><span class="p">:</span> <span class="kt">UInt8</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7BlueBot14ViewControllerC12STATUS_ERROR33_0891EFC760EFD9A05D57800FFFF104AFLLs5UInt8Vvp"></a>
+                    <a name="//apple_ref/swift/Property/STATUS_ERROR" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7BlueBot14ViewControllerC12STATUS_ERROR33_0891EFC760EFD9A05D57800FFFF104AFLLs5UInt8Vvp">STATUS_ERROR</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">let</span> <span class="nv">STATUS_ERROR</span><span class="p">:</span> <span class="kt">UInt8</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7BlueBot14ViewControllerC12STATUS_STUCK33_0891EFC760EFD9A05D57800FFFF104AFLLs5UInt8Vvp"></a>
+                    <a name="//apple_ref/swift/Property/STATUS_STUCK" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7BlueBot14ViewControllerC12STATUS_STUCK33_0891EFC760EFD9A05D57800FFFF104AFLLs5UInt8Vvp">STATUS_STUCK</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">let</span> <span class="nv">STATUS_STUCK</span><span class="p">:</span> <span class="kt">UInt8</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@BlueBot@objc(cs)ViewController(im)viewDidLoad"></a>
+                    <a name="//apple_ref/swift/Method/viewDidLoad()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BlueBot@objc(cs)ViewController(im)viewDidLoad">viewDidLoad()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Init GameScene, PeripheralManager, alertCharacteristics instaces, for more info about <a href="https://developer.apple.com/documentation/appkit/nsviewcontroller/1434476-viewdidload/">viewDidLoad</a></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@BlueBot@objc(cs)ViewController(im)peripheralManagerDidUpdateState:"></a>
+                    <a name="//apple_ref/swift/Method/peripheralManagerDidUpdateState(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BlueBot@objc(cs)ViewController(im)peripheralManagerDidUpdateState:">peripheralManagerDidUpdateState(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Check the status of the bluetooth. If bluetooth is turned on call prepareService func, for more info about <a href="https://developer.apple.com/documentation/corebluetooth/cbperipheralmanager/">CBPeripheralManager delegate</a></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">peripheralManagerDidUpdateState</span><span class="p">(</span><span class="n">_</span> <span class="nv">peripheral</span><span class="p">:</span> <span class="kt">CBPeripheralManager</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7BlueBot14ViewControllerC14prepareServiceyyF"></a>
+                    <a name="//apple_ref/swift/Method/prepareService()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7BlueBot14ViewControllerC14prepareServiceyyF">prepareService()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Init the robot service and the characteristics and then start advertising</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">prepareService</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@BlueBot@objc(cs)ViewController(im)peripheralManager:didReceiveReadRequest:"></a>
+                    <a name="//apple_ref/swift/Method/peripheralManager(_:didReceiveRead:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BlueBot@objc(cs)ViewController(im)peripheralManager:didReceiveReadRequest:">peripheralManager(_:didReceiveRead:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Response to read requests by the central, for more info about <a href="https://developer.apple.com/documentation/corebluetooth/cbperipheralmanager/">CBPeripheralManager delegate</a></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">peripheralManager</span><span class="p">(</span><span class="n">_</span> <span class="nv">peripheral</span><span class="p">:</span> <span class="kt">CBPeripheralManager</span><span class="p">,</span> <span class="n">didReceiveRead</span> <span class="nv">request</span><span class="p">:</span> <span class="kt">CBATTRequest</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@BlueBot@objc(cs)ViewController(im)peripheralManager:didReceiveWriteRequests:"></a>
+                    <a name="//apple_ref/swift/Method/peripheralManager(_:didReceiveWrite:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@BlueBot@objc(cs)ViewController(im)peripheralManager:didReceiveWriteRequests:">peripheralManager(_:didReceiveWrite:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Update settings after receiving write request from the central and notifies the central if settings updated correctly or not , for more info about <a href="https://developer.apple.com/documentation/corebluetooth/cbperipheralmanager/">CBPeripheralManager delegate</a></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">peripheralManager</span><span class="p">(</span><span class="n">_</span> <span class="nv">peripheral</span><span class="p">:</span> <span class="kt">CBPeripheralManager</span><span class="p">,</span> <span class="n">didReceiveWrite</span> <span class="nv">requests</span><span class="p">:</span> <span class="p">[</span><span class="kt">CBATTRequest</span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7BlueBot14ViewControllerC11togglePowery10Foundation4DataVSg4data_tF"></a>
+                    <a name="//apple_ref/swift/Method/togglePower(data:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7BlueBot14ViewControllerC11togglePowery10Foundation4DataVSg4data_tF">togglePower(data:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Handle the update of the power after receiving write request from the central. This func first convert the data from pointer Data to [UInt8] and then calls GameScene startBot or StopBot functions</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">togglePower</span><span class="p">(</span><span class="nv">data</span><span class="p">:</span> <span class="kt">Data</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>data</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The settings data sent from the central</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>nothing</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7BlueBot14ViewControllerC14updateSettingsy10Foundation4DataVSg4data_tF"></a>
+                    <a name="//apple_ref/swift/Method/updateSettings(data:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7BlueBot14ViewControllerC14updateSettingsy10Foundation4DataVSg4data_tF">updateSettings(data:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Handle the update of the settings after receiving write request from the central. This func first convert the data from pointer Data to [UInt8] and then calls GameScene setBotSettings func</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">updateSettings</span><span class="p">(</span><span class="nv">data</span><span class="p">:</span> <span class="kt">Data</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>data</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The settings data sent from the central</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>nothing</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7BlueBot14ViewControllerC18simulateLowBatteryySb5state_tF"></a>
+                    <a name="//apple_ref/swift/Method/simulateLowBattery(state:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7BlueBot14ViewControllerC18simulateLowBatteryySb5state_tF">simulateLowBattery(state:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The implementation of the BlueProtocol protocol which used alert the central that the robot has low battery by updating the first index of BOT_ALERT_VALUES and then calling <a href="https://developer.apple.com/documentation/corebluetooth/cbperipheralmanager/1393281-updatevalue/">updateValue</a></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">simulateLowBattery</span><span class="p">(</span><span class="nv">state</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>state</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Boolean that represents the state of the Low battery [on or off]</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>nothing</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7BlueBot14ViewControllerC13simulateStuckySb5state_tF"></a>
+                    <a name="//apple_ref/swift/Method/simulateStuck(state:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7BlueBot14ViewControllerC13simulateStuckySb5state_tF">simulateStuck(state:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The implementation of the BlueProtocol protocol which used alert the central that the robot is stuck by updating the third index of BOT_ALERT_VALUES and then calling <a href="https://developer.apple.com/documentation/corebluetooth/cbperipheralmanager/1393281-updatevalue/">updateValue</a></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">simulateStuck</span><span class="p">(</span><span class="nv">state</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>state</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Boolean that represents the state of stuck [on or off]</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>nothing</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7BlueBot14ViewControllerC13simulateErrorySb5state_tF"></a>
+                    <a name="//apple_ref/swift/Method/simulateError(state:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7BlueBot14ViewControllerC13simulateErrorySb5state_tF">simulateError(state:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The implementation of the BlueProtocol protocol which used alert the central that the robot has an error and needs restarting by updating the second index of BOT_ALERT_VALUES and then calling <a href="https://developer.apple.com/documentation/corebluetooth/cbperipheralmanager/1393281-updatevalue/">updateValue</a></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">simulateError</span><span class="p">(</span><span class="nv">state</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>state</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Boolean that represents the state of the error [on or off]</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>nothing</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7BlueBot14ViewControllerC10simulateOKyyF"></a>
+                    <a name="//apple_ref/swift/Method/simulateOK()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7BlueBot14ViewControllerC10simulateOKyyF">simulateOK()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The implementation of the BlueProtocol protocol which used alert the central that the robot is restarted and has no errors by setting all values BOT_ALERT_VALUES to zero and then calling <a href="https://developer.apple.com/documentation/corebluetooth/cbperipheralmanager/1393281-updatevalue/">updateValue</a></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">simulateOK</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>nothing</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7BlueBot14ViewControllerC14notifyFinishedyyF"></a>
+                    <a name="//apple_ref/swift/Method/notifyFinished()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7BlueBot14ViewControllerC14notifyFinishedyyF">notifyFinished()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The implementation of the BlueProtocol protocol which used alert the central that the robot timer has finishedand updating the last index of BOT_ALERT_VALUES and then calling <a href="https://developer.apple.com/documentation/corebluetooth/cbperipheralmanager/1393281-updatevalue/">updateValue</a></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">notifyFinished</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>nothing</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2018-05-15)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
