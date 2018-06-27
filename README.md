@@ -17,5 +17,6 @@ Basically to to turn OSX app to a bluetooth peripheral, your need to perform the
 6. Wait for read and write operation from the central
 7. Notify the central when new alert occurs
 
+<img src="https://github.com/nour7/BlueBotSimulator/blob/master/screen1.png" width="650">
 
-![BlueBot Simulator screenshot](/screen1.png)
+released under MIT license
